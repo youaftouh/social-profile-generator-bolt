@@ -1,0 +1,84 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded Square Background with Gradient -->
+  <rect width="512" height="512" rx="90" fill="url(#gradient1)"/>
+  
+  <!-- Subtle Inner Shadow -->
+  <rect x="20" y="20" width="472" height="472" rx="70" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+  
+  <!-- Profile Avatar Circle -->
+  <circle cx="256" cy="180" r="50" fill="url(#gradient2)" stroke="rgba(255,255,255,0.4)" stroke-width="3"/>
+  
+  <!-- Avatar Icon -->
+  <circle cx="256" cy="170" r="16" fill="white" opacity="0.95"/>
+  <path d="M230 200 C230 185, 245 175, 256 175 C267 175, 282 185, 282 200" fill="white" opacity="0.95"/>
+  
+  <!-- Social Media Icons in a Grid -->
+  <g transform="translate(256, 300)">
+    <!-- LinkedIn -->
+    <g transform="translate(-60, -30)">
+      <rect x="-20" y="-20" width="40" height="40" rx="8" fill="#0077B5"/>
+      <rect x="-12" y="-8" width="5" height="16" fill="white"/>
+      <rect x="-5" y="-2" width="5" height="10" fill="white"/>
+      <circle cx="-9.5" cy="-12" r="2.5" fill="white"/>
+      <path d="M1 -2 L1 8 M1 2 C3.5 -1, 8 -1, 8 4 L8 8" stroke="white" stroke-width="2" fill="none"/>
+    </g>
+    
+    <!-- Facebook -->
+    <g transform="translate(60, -30)">
+      <rect x="-20" y="-20" width="40" height="40" rx="8" fill="#1877F2"/>
+      <path d="M-3 -15 L-3 -8 L-8 -8 L-8 -3 L-3 -3 L-3 15 L3 15 L3 -3 L8 -3 L9 -8 L3 -8 L3 -10 C3 -11.5, 4 -12, 5 -12 L9 -12 L9 -15 L5 -15 C0 -15, -3 -12, -3 -10" fill="white"/>
+    </g>
+    
+    <!-- Instagram -->
+    <g transform="translate(-60, 30)">
+      <rect x="-20" y="-20" width="40" height="40" rx="10" fill="url(#instagramGradient)"/>
+      <circle cx="0" cy="0" r="8" fill="none" stroke="white" stroke-width="2.5"/>
+      <circle cx="8" cy="-8" r="2" fill="white"/>
+      <rect x="-12" y="-12" width="24" height="24" rx="5" fill="none" stroke="white" stroke-width="2.5"/>
+    </g>
+    
+    <!-- GitHub -->
+    <g transform="translate(60, 30)">
+      <rect x="-20" y="-20" width="40" height="40" rx="8" fill="#333"/>
+      <path d="M0 -12 C-6.6 -12, -12 -6.6, -12 0 C-12 5.2, -8.9 9.5, -4.4 10.7 C-3.8 10.8, -3.6 10.4, -3.6 10.1 L-3.6 9.1 C-3.6 9.1, -4.1 9.2, -4.9 9.2 C-6.1 9.2, -6.5 8.4, -6.5 8.4 C-7.1 7, -7.9 6.6, -7.9 6.6 C-9.1 5.9, -7.8 5.9, -7.8 5.9 C-6.5 6, -5.9 7.2, -5.9 7.2 C-4.8 9, -3.1 8.4, -3.6 8.2 C-3.5 7.4, -3.2 6.9, -2.9 6.6 C-5 6.4, -7.3 5.5, -7.3 1.9 C-7.3 0.7, -7 -0.2, -5.9 -1 C-6 -1.3, -6.5 -2.6, -5.8 -4.3 C-5.8 -4.3, -4.8 -4.7, -3.6 -3.6 C-3 -3.8, -1.6 -3.8, 0 -3.8 C1.6 -3.8, 3 -3.8, 3.6 -3.6 C4.8 -4.7, 5.8 -4.3, 5.8 -4.3 C6.5 -2.6, 6 -1.3, 5.9 -1 C7 -0.2, 7.3 0.7, 7.3 1.9 C7.3 5.5, 5 6.4, 2.9 6.6 C3.2 6.9, 3.5 7.4, 3.6 8.2 C3.1 8.4, 4.8 9, 5.9 7.2 C5.9 7.2, 6.5 6, 7.8 5.9 C7.8 5.9, 9.1 5.9, 7.9 6.6 C7.9 6.6, 7.1 7, 6.5 8.4 C6.5 8.4, 6.1 9.2, 4.9 9.2 C4.1 9.2, 3.6 9.1, 3.6 9.1 L3.6 10.1 C3.6 10.4, 3.8 10.8, 4.4 10.7 C8.9 9.5, 12 5.2, 12 0 C12 -6.6, 6.6 -12, 0 -12 Z" fill="white"/>
+    </g>
+  </g>
+  
+  <!-- Connecting Lines -->
+  <g stroke="rgba(255,255,255,0.4)" stroke-width="2" fill="none">
+    <line x1="216" y1="220" x2="196" y2="250"/>
+    <line x1="296" y1="220" x2="316" y2="250"/>
+    <line x1="216" y1="220" x2="196" y2="310"/>
+    <line x1="296" y1="220" x2="316" y2="310"/>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <g fill="rgba(255,255,255,0.3)">
+    <circle cx="100" cy="100" r="3"/>
+    <circle cx="412" cy="120" r="2"/>
+    <circle cx="80" cy="400" r="2"/>
+    <circle cx="430" cy="380" r="3"/>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="instagramGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f09433;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#e6683c;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#dc2743;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#cc2366;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bc1888;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
